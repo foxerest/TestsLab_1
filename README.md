@@ -1,1 +1,1 @@
-# Test method Div() of class CalcClass
+Lab1: Test method Div() of class CalcClass
