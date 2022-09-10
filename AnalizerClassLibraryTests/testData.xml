@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TestList>
+	<TestWithValidNumbers incomingFirstNumber="2" incomingSecondNumber="2" expectedResult="1"/>
+	<TestWithValidNumbers incomingFirstNumber="-9" incomingSecondNumber="2" expectedResult="-4"/>
+	<TestWithValidNumbers incomingFirstNumber="-7" incomingSecondNumber="-3" expectedResult="2"/>
+	<TestWithInvalidNumbers incomingFirstNumber="99999999999" incomingSecondNumber="1"/>
+	<TestWithInvalidNumbers incomingFirstNumber="-9" incomingSecondNumber="-99999999999"/>
+	<TestWithInvalidNumbers incomingFirstNumber="-99999999999" incomingSecondNumber="99999999999"/>
+</TestList>
