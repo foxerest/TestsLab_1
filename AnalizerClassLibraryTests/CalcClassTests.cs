@@ -1,11 +1,6 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using CalcClassBr;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Diagnostics;
 using ErrorLibrary;
 
 namespace AnalaizerClassLibrary.Tests
@@ -43,7 +38,7 @@ namespace AnalaizerClassLibrary.Tests
             //Actual
             long actual = CalcClass.Div(incomingFirstNumber, incomingSecondNumber);
 
-            //Assert - - Expects exception
+            //Assert - Expects exception
         }
     }
 }
